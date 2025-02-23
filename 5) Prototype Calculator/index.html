@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <title>Dosbol's Calculator</title>
+        <link rel ="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="calculator">
+            <input id="display">
+            <div id="keys">
+                <button onClick = "addFunction('+')" id="operations">+</button>
+                <button onClick = "addFunction('7')">7</button>
+                <button onClick = "addFunction('8')">8</button>
+                <button onClick = "addFunction('9')">9</button>
+
+
+                <button onClick = "addFunction('-')" id="operations">-</button>
+                <button onClick = "addFunction('4')">4</button>
+                <button onClick = "addFunction('5')">5</button>
+                <button onClick = "addFunction('6')">6</button>
+
+
+                <button onClick = "addFunction('*')" id="operations">*</button>
+                <button onClick = "addFunction('1')">1</button>
+                <button onClick = "addFunction('2')">2</button>
+                <button onClick = "addFunction('3')">3</button>
+
+
+                <button onClick = "calculateFunction()" id="operations">=</button>
+                <button onClick = "addFunction('0')">0</button>
+                <button onClick = "deleteFunction()">C</button>
+                <button onClick = "removeFunction()">R</button>
+                <button onClick = "addFunction('.')">.</button>
+
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
