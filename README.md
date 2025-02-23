@@ -1,5 +1,5 @@
 # Dosbol's Calculator
-## Dosbol's Calculator is a lightweight, web-based calculator application built using HTML, CSS, and JavaScript. It demonstrates how to create an interactive interface for performing basic arithmetic operations in a clean and responsive design.
+Dosbol's Calculator is a lightweight, web-based calculator application built using HTML, CSS, and JavaScript. It demonstrates how to create an interactive interface for performing basic arithmetic operations in a clean and responsive design.
 
 ### Features
 Basic Arithmetic: Easily perform addition, subtraction, multiplication, and division.
@@ -14,10 +14,10 @@ Getting Started
 Clone the Repository:
 
 ### bash
-Copy
+"""Copy
 git clone <repository-url>
 cd dosbols-calculator
-Open the Application:
+Open the Application:"""
 
 Open the index.html file in your preferred web browser to start using the calculator.
 
